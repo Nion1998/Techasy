@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins:ital,wght@0,300;0,700;1,400&family=Public+Sans:wght@100;500;800;900&family=Roboto+Condensed&family=Roboto+Mono:wght@300&display=swap');
+*{ 
+    font-family: 'Public Sans';
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.fs-2{
+    font-size: 55px !important;
+}
+.fs-5{
+    font-size: 32px !important; 
+}
+.fs-6{
+    font-size: 20px !important; 
+}
+
+/* nav  start*/
+.text-light-custom {
+    text-align: center;
+    color: #ffffff !important;
+    transition: .5s;
+}
+
+form input{
+    background-color: #000;
+    border: none;
+    border-bottom: 2px solid #fffdfd;
+    color: #fffdfd;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+.text-light-custom:hover {
+    color: #FCD346 !important;
+}
+.carousel-icon-color{
+    background-color: black !important;
+}
+/* nav end */
+/* header section start*/
+@media only screen and (max-width: 1500px) {
+    .fs-2{
+         font-size: 30px !important;
+     }
+     .fs-5{
+         font-size: 22px !important; 
+     }
+     .fs-6{
+         font-size: 13px !important; 
+     }
+     Header section{
+         padding-top: 30px;
+     }
+     .carousel-item img{
+        height:220px;
+     }
+     
+   }
+
+@media only screen and (max-width: 766px) {
+    .fs-2{
+         font-size: 15px !important;
+     }
+     .fs-5{
+         font-size: 13px !important; 
+     }
+     .fs-6{
+         font-size: 8px !important; 
+     }
+     Header section{
+         padding-top: 70px;
+     }
+     .carousel-item img{
+        height: 100px;
+     }
+   }
+
