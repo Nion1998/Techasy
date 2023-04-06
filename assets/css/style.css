@@ -9,7 +9,7 @@
     font-size: 55px !important;
 }
 .fs-5{
-    font-size: 32px !important; 
+    font-size: 28px !important; 
 }
 .fs-6{
     font-size: 20px !important; 
@@ -30,6 +30,10 @@ form input{
     width: 100%;
     font-size: 20px;
     margin-top: 10px;
+}
+
+footer .text{
+    width:50%;
 }
 
 
@@ -76,5 +80,8 @@ form input{
      .carousel-item img{
         height: 100px;
      }
+     footer .text{
+        width:100%;
+    }
    }
 
